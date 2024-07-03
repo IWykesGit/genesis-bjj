@@ -1,31 +1,4 @@
-/* 
---seasalt: #f8f9faff;
---antiflash-white: #e9ecefff;
---platinum: #dee2e6ff;
---french-gray: #ced4daff;
---french-gray-2: #adb5bdff;
---slate-gray: #6c757dff;
---outer-space: #495057ff;
---onyx: #343a40ff;
---eerie-black: #212529ff; 
-*/
-
-
 .App {
   text-align: center;
 }
 
-.bg-navbar {
-    background-color: #495057;
-}
-
-.navbar-brand {
-    max-width: 10rem;
-    margin-right: 2rem;
-}
-
-.navbar-brand img {
-    width: 100%;
-    height: 100%;
-    margin-right: 2rem;
-}
