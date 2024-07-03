@@ -1,0 +1,12 @@
+.footer-logo {
+    max-width: 10rem;
+}
+
+.footer-row {
+    padding: 2rem;
+    color: rgba(128, 128, 128, 0.89);
+}
+
+.footer-social-col a {
+    padding: .5rem;
+}

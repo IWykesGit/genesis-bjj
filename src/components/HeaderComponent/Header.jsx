@@ -3,14 +3,14 @@ import './header.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import GenesisBlackBelt from '../../app/assets/genesis-bjj-center-wendel-gabetta.png';
+import GenesisLogo from '../../app/assets/genesis-bjj-center-wendel-gabetta.png';
 
 const Header = () => {
     return (
         <Container>
             <Navbar sticky='top' expand='lg' className='bg-navbar'>
                 <Navbar.Brand href='#home'>
-                    <img href='#home' src={GenesisBlackBelt} aria-label='Genesis Black Belt Logo' />
+                    <img href='#home' src={GenesisLogo} aria-label='Genesis Black Belt Logo' />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse>
