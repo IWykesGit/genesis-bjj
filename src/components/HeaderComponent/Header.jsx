@@ -10,7 +10,7 @@ const Header = () => {
         <Container>
             <Navbar sticky='top' expand='lg' className='bg-navbar'>
                 <Navbar.Brand href='#home'>
-                    <img href='#home' src={GenesisLogo} aria-label='Genesis Black Belt Logo' />
+                    <img src={GenesisLogo} aria-label='Genesis Black Belt Logo' />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse>
@@ -18,7 +18,7 @@ const Header = () => {
                         <Nav.Link href='#home'>Home</Nav.Link>
                         <Nav.Link href='#about'>About</Nav.Link>
                         <Nav.Link href='#schedule'>Schedule</Nav.Link>
-                        <Nav.Link href='#contact'>Contact</Nav.Link>
+                        <Nav.Link href='#footer'>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

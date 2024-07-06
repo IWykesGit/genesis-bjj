@@ -8,30 +8,19 @@ import Col from 'react-bootstrap/Col';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id='footer'>
             <Container fluid>
                 <Row>
                     <Col md='4'>
-                        <img href='#home' src={GenesisLogo} className='footer-logo' />
+                        <a href='#home'>
+                            <img src={GenesisLogo} className='footer-logo' />
+                        </a>
                     </Col>
                     <Col>
                         <h3>Gym</h3>
                         <a href='#about'>About</a> 
                         <br/>
                         <a href='#schedule'>Schedule</a>
-                    </Col>
-                    <Col>
-                        <h3>Socials</h3>
-                        <Row>
-                            <Col className='footer-social-col'>
-                                <a href='https://www.instagram.com/genesisbjjcenter/'>
-                                    <i className='fa fa-instagram fa-2x' style={{color: '#000000'}}></i>
-                                </a>
-                                <a href='https://www.facebook.com/genesisbjjcenter'>
-                                    <i className='fa fa-facebook fa-2x' style={{color: '#000000'}}></i>
-                                </a>
-                            </Col>
-                        </Row>
                     </Col>
                     <Col>
                         <h3>Contact</h3>
@@ -47,8 +36,21 @@ const Footer = () => {
                             <i className='fa fa-envelope-o' /> genesisbjj20@gmail.com
                         </a>
                     </Col>
+                    <Col>
+                        <h3>Social</h3>
+                        <Row>
+                            <Col className='footer-social-col'>
+                                <a href='https://www.instagram.com/genesisbjjcenter/'>
+                                    <i className='fa fa-instagram fa-2x' style={{color: '#000000'}}></i>
+                                </a>
+                                <a href='https://www.facebook.com/genesisbjjcenter'>
+                                    <i className='fa fa-facebook fa-2x' style={{color: '#000000'}}></i>
+                                </a>
+                            </Col>
+                        </Row>
+                    </Col>
                 </Row>
-                <Row className='footer-row'>
+                <Row className='footer-tagline'>
                     <Col>
                         <b>Discipline - Respect - Confidence - Leadership</b>
                     </Col>
