@@ -1,10 +1,10 @@
 import NewUserEntryForm from "../../components/NewUserEntryFormComponent/NewUserEntryForm";
 
-const SubmitPage = () => {
+const NewStudentDetailsPage = () => {
 
     return (
         <NewUserEntryForm />
     );
 }
 
-export default SubmitPage;
+export default NewStudentDetailsPage;
