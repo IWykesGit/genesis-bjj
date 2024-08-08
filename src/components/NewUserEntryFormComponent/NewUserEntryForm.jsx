@@ -9,7 +9,7 @@ const NewUserEntryForm = () => {
     return (
 
         <Form className='m-5'>
-            <Container>
+            <Container className='new-user-entry'>
                 <Row className='name-row'>
                     <Form.Group as={Col}>
                         <FloatingLabel controlId='floatingFirstName' label='First Name' className='mb-3'>
