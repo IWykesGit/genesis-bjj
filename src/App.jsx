@@ -4,7 +4,7 @@ import './App.css';
 import React from 'react';
 
 import Header from './components/HeaderComponent/Header';
-import NewStudentDetailsPage from './components/NewStudentDetailsPage/NewStudentDetailsPage';
+import NewStudentDetailsPage from './pages/NewStudentDetailsPage/NewStudentDetailsPage';
 import Footer from './components/FooterComponent/Footer';
 
 function App() {

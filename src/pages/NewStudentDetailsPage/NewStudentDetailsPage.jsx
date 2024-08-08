@@ -1,4 +1,4 @@
-import NewUserEntryForm from "../NewUserEntryFormComponent/NewUserEntryForm";
+import NewUserEntryForm from "../../components/NewUserEntryFormComponent/NewUserEntryForm";
 
 const SubmitPage = () => {
 
